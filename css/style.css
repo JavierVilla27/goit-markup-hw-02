@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family:'Roboto', 'raleway', sans-serif;
+        color: #2F303A;
+       
+    }
+
+    .logo {
+        /* Estudio Web */
+        
+
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            /* identical to box height */
+        
+            text-align: right;
+            letter-spacing: 0.03em;
+        
+            color: #2196F3;
+    }
+
+
+
+.link1 {
+    /* Estudio */
+    
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+}
+
+.link2: {
+    /* Portafolio */
+   
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.link3 {
+    /* Сontactos */
+    
+
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.adress1 {
+    /* info@devstudio.com */
+    
+  
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+}
+
+.number1 {
+ 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+
+h1 {
+    /* SOLUCIONES EFICACES PARA SU NEGOCIO */
+    
+    
+   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.background1 {
+    /* Bg */
+    
+ 
+    
+        background: #2F303A;
+}
+
+
+
+.button {
+    /* Frame 1 */
+    
+    
+        /* Auto layout */
+    
+     
+        cursor: pointer;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
+.button-primary {
+/* Solicite nuestro servicio */
+
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+a:hover {
+   color:blueviolet;  
+}
+
+h3{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+p {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+ 
+.description {
+    text-align: left;
+}
+
+
+
+.section2 {
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.subtitle2 {
+ 
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+
+.section3 {
+    /* Sección bg */
+    
+    
+    
+    
+        background: #F5F4FA;
+}
+
+.subtitle3 {
+    /* Nuestro Equipo */
+    
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+.card1 {
+    /* tarjeta bg */
+    
+    
+  
+    
+        background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.card2 {
+/* tarjeta bg */
+
+
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card3 {
+    /* tarjeta bg */
+
+    
+        background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.card4 {
+    /* tarjeta bg */
+    
+  
+    
+        background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+footer {
+    /* Pie de página bg */
+
+        background: #2F303A;
+}
+
+.contact {
+    /* Estudio Web */
+    
+    
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+
+.adress2 {
+    /* info@example.com */
+    
+    
+   
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.adress4 {
+
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+
+.number2 {
+ 
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.button2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
